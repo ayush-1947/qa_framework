@@ -196,15 +196,16 @@ testpaths = tests
 | Security (XSS / SQLi) | 6 |
 | Negative & Boundary (PAN, Email, Mobile, Amount) | 43 |
 
-### Defect Summary (Logged in Excel Report)
+### 🐛 Defect Summary (Caught by Automation)
 
-| Severity | Count |
-| --- | --- |
-| High | 7 |
-| Medium | 3 |
-| Low | 2 |
+*Note: This table reflects the 6 UI validation failures caught by the Pytest automation suite. Additional backend and network-level security vulnerabilities are logged separately in the accompanying manual Excel Defect Report.*
 
----
+| Severity | Count | Bug Description / Note |
+| :--- | :--- | :--- |
+| **High** | 3 | Mobile accepts letters, Email missing TLD, Custom Amount allows integer overflow. |
+| **Medium** | 3 | Mobile accepts short digits, Mobile accepts symbols, PAN accepts lowercase. |
+| **Low** | 0 | |
+| **Total** | **6** | |
 
 ##  Contribution Guidelines
 
