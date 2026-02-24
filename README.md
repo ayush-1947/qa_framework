@@ -196,7 +196,7 @@ testpaths = tests
 | Security (XSS / SQLi) | 6 |
 | Negative & Boundary (PAN, Email, Mobile, Amount) | 43 |
 
-### 🐛 Defect Summary (Caught by Automation)
+###  Defect Summary (Caught by Automation)
 
 *Note: This table reflects the 6 UI validation failures caught by the Pytest automation suite. Additional backend and network-level security vulnerabilities are logged separately in the accompanying manual Excel Defect Report.*
 
